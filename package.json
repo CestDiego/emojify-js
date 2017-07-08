@@ -1,0 +1,11 @@
+{
+  "name": "emojify-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CestDiego/emojify-js.git",
+  "author": "Diego Berrocal <cestdiego@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babylon": "^6.17.4"
+  }
+}
