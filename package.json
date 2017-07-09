@@ -5,7 +5,15 @@
   "repository": "git@github.com:CestDiego/emojify-js.git",
   "author": "Diego Berrocal <cestdiego@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublish": "yarn run build"
+  },
   "dependencies": {
     "babylon": "^6.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
   }
 }
